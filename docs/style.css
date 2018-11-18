@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url('../fonts/Rubik/Rubik-Regular.woff2') format('woff2'), url('../fonts/Rubik/Rubik-Regular.woff') format('woff'), url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+    src: url('fonts/Rubik/Rubik-Regular.woff2') format('woff2'), url('fonts/Rubik/Rubik-Regular.woff') format('woff'), url('fonts/Rubik/Rubik-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Rubik';
-    src: url('../fonts/Rubik/Rubik-Light.woff2') format('woff2'), url('../fonts/Rubik/Rubik-Light.woff') format('woff'), url('../fonts/Rubik/Rubik-Light.ttf') format('truetype');
+    src: url('fonts/Rubik/Rubik-Light.woff2') format('woff2'), url('fonts/Rubik/Rubik-Light.woff') format('woff'), url('fonts/Rubik/Rubik-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
