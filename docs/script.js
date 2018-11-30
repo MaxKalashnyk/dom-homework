@@ -94,15 +94,12 @@ let renderPage = () => {
             /* finding match of cat with the same id as in clicked link */
 
             let currentCat = cats.find((cat) => {
-                if (cat.id === currentTargetDataId) {
-					return true;
-                }
-
+                return cat.id === currentTargetDataId;
             });
 			
-			if (currentCat) {
-				renderCat(currentCat);
-			}
+		if (currentCat) {
+			renderCat(currentCat);
+		}
 			
         }
 
@@ -130,4 +127,7 @@ let renderPage = () => {
     
 };
 
-document.addEventListener('DOMContentLoaded', renderPage);
+document.addEventListener('DOMContentLoaded', function Handler(event) {
+     renderPage();
+     document.removeEventListener("DOMContentLoaded", Handler, false);
+});
